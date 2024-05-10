@@ -2,9 +2,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-import seaborn as sns
-import folium
-from folium.plugins import MarkerCluster
 from sklearn.manifold import TSNE
 from sklearn.cluster import AgglomerativeClustering
 from sklearn_extra.cluster import KMedoids
